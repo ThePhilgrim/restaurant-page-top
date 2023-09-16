@@ -1,0 +1,21 @@
+#content {
+  background-color: hsl(210, 23%, 83%);
+}
+
+.contact-wrapper {
+  align-items: center;
+  display: flex;
+  gap: 6em;
+  max-width: min(1400px, 90%);
+  padding: 12em 0;
+}
+
+.left-col > .section-heading {
+  line-height: 2.5rem;
+  margin-bottom: 1em;
+  text-align: left;
+}
+
+.left-col > .description {
+  line-height: 2rem;
+}

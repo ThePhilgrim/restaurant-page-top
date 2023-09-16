@@ -2,6 +2,7 @@
 import init from './modules/initPageLoad';
 import renderHome from './modules/home';
 import renderMenu from './modules/menu';
+import renderContact from './modules/contact';
 
 init();
 
@@ -30,6 +31,7 @@ function changeTab(event) {
       content.appendChild(renderMenu());
       break;
     case 'contact':
+      content.appendChild(renderContact());
       break;
   }
 }
