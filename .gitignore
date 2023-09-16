@@ -4,3 +4,8 @@ node_modules/
 src/.DS_Store
 
 .vscode/
+
+src/
+package-lock.json
+package.json
+webpack.config.js
