@@ -10,8 +10,8 @@ export default function renderHero() {
   const header = document.createElement('header');
   header.classList.add('hero');
 
-  const backgroundOverlay = document.createElement('div');
-  backgroundOverlay.classList.add('background-overlay');
+  // const backgroundOverlay = document.createElement('div');
+  // backgroundOverlay.classList.add('background-overlay');
 
   const logo = new Image();
   logo.classList.add('logo');
@@ -33,13 +33,13 @@ export default function renderHero() {
   scrollArrow.classList.add('scroll-arrow');
   scrollArrow.src = ScrollArrow;
 
-  backgroundOverlay.appendChild(logo);
-  backgroundOverlay.appendChild(subheading);
-  backgroundOverlay.appendChild(heading);
-  backgroundOverlay.appendChild(bookTable);
-  backgroundOverlay.appendChild(scrollArrow);
+  header.appendChild(logo);
+  header.appendChild(subheading);
+  header.appendChild(heading);
+  header.appendChild(bookTable);
+  header.appendChild(scrollArrow);
 
-  header.appendChild(backgroundOverlay);
+  // header.appendChild(backgroundOverlay);
 
   return header;
 }

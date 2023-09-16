@@ -14,7 +14,7 @@ export default function renderContact() {
 
   // Left Column Content
   const heading = document.createElement('h3');
-  heading.classList.add('section-heading');
+  heading.classList.add('contact-section-heading');
   heading.textContent = 'Stop by for a bite..';
 
   const address = document.createElement('address');

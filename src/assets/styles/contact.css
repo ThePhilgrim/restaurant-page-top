@@ -10,12 +10,13 @@
   padding: 12em 0;
 }
 
-.left-col > .section-heading {
+.left-col > .contact-section-heading {
+  font-size: 3rem;
   line-height: 2.5rem;
   margin-bottom: 1em;
   text-align: left;
 }
 
-.left-col > .description {
+.left-col > .address {
   line-height: 2rem;
 }

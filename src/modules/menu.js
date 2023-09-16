@@ -31,7 +31,7 @@ export default function renderMenu() {
   menuWrapper.classList.add('menu-wrapper');
 
   const heading = document.createElement('h2');
-  heading.classList.add('section-heading');
+  heading.classList.add('menu-section-heading');
   heading.textContent = 'Our menu';
 
   menuWrapper.appendChild(heading);

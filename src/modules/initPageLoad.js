@@ -6,7 +6,9 @@ import renderFooter from './footer';
 export default function init() {
   const heroContainer = document.querySelector('#hero');
   heroContainer.appendChild(renderHero());
-  heroContainer.appendChild(renderNavBar());
+
+  const navContainer = document.querySelector('#navbar');
+  navContainer.appendChild(renderNavBar());
 
   const contentContainer = document.querySelector('#content');
   contentContainer.appendChild(renderHome());
