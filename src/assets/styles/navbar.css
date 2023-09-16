@@ -1,0 +1,30 @@
+ul {
+  padding: 0;
+}
+
+.nav-bar {
+  background-color: #3d464d;
+}
+
+.nav-list {
+  display: flex;
+  font-size: 1.25rem;
+  justify-content: center;
+  list-style-type: none;
+  min-height: 6em;
+}
+
+.nav-item {
+  align-items: center;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  min-width: 10em;
+  text-align: center;
+}
+
+.nav-item.active {
+  border-bottom: 6px solid #f8ad3a;
+  margin-top: 6px;
+}

@@ -1,0 +1,25 @@
+#footer {
+  align-items: center;
+  background-color: #3d464d;
+  display: flex;
+  min-height: 8em;
+}
+
+.footer-wrapper {
+  display: flex;
+  flex-basis: 100%;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: min(1400px, 90%);
+}
+
+.footer-wrapper > p {
+  color: hsl(210, 23%, 83%);
+  font-weight: 200;
+}
+
+.footer-wrapper a {
+  color: hsl(210, 23%, 83%);
+  font-weight: 500;
+  text-decoration: none;
+}

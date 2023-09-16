@@ -1,0 +1,105 @@
+/*
+#f8ad3a Yellow
+#3d464d Dark Bluish
+*/
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  letter-spacing: 1px;
+}
+
+.hero {
+  background: url('../images/hero-image.jpg');
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  min-height: 100vh;
+  position: relative;
+}
+
+.background-overlay {
+  align-items: center;
+  background-color: rgba(61, 70, 77, 0.75);
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.logo {
+  filter: invert(96%) sepia(3%) saturate(335%) hue-rotate(249deg) brightness(115%) contrast(100%);
+  left: 3em;
+  position: absolute;
+  top: 3em;
+  width: 6em;
+}
+
+.subheading {
+  font-size: 1.8rem;
+  font-weight: 100;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.heading {
+  font-size: 6rem;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.btn {
+  background-color: #f8ad3a;
+  color: #3d464d;
+  cursor: pointer;
+  font-weight: 700;
+  padding: 1rem 2rem;
+  text-transform: uppercase;
+  transition: all 0.3s;
+}
+
+.btn:hover {
+  transform: translateY(-9%);
+}
+
+.scroll-arrow {
+  animation: 1s ease-out 1s 1 slideDown, 2s ease-out 0s 1 invisible;
+  bottom: 2em;
+  filter: invert(70%) sepia(60%) saturate(0%) hue-rotate(318deg) brightness(105%) contrast(98%);
+  left: 50;
+  position: absolute;
+  width: 6em;
+}
+
+@keyframes invisible {
+  0% {
+    opacity: 0;
+  }
+
+  66% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes slideDown {
+  0% {
+    transform: translateY(-100px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
