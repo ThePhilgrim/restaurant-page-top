@@ -2,6 +2,7 @@ import renderHero from './hero';
 import renderNavBar from './navbar';
 import renderHome from './home';
 import renderFooter from './footer';
+import renderMenu from './menu';
 
 export default function init() {
   const heroContainer = document.querySelector('#hero');

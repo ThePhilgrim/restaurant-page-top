@@ -8,15 +8,18 @@ export default function renderNavBar() {
   navList.classList.add('nav-list');
 
   const home = document.createElement('li');
-  home.classList.add('nav-item', 'home', 'active');
+  home.classList.add('nav-item', 'active');
+  home.id = 'home';
   home.textContent = 'Home';
 
   const menu = document.createElement('li');
-  menu.classList.add('nav-item', 'menu');
+  menu.classList.add('nav-item');
+  menu.id = 'menu';
   menu.textContent = 'Menu';
 
   const contact = document.createElement('li');
-  contact.classList.add('nav-item', 'contact');
+  contact.classList.add('nav-item');
+  contact.id = 'contact';
   contact.textContent = 'Contact';
 
   navList.appendChild(home);
