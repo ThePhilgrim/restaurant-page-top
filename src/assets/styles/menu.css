@@ -1,0 +1,41 @@
+.menu-wrapper {
+  border: 2px solid #3d464d;
+  gap: 6em;
+  max-width: min(1400px, 90%);
+  margin: 12em 0;
+  padding: 2em 0;
+}
+
+.section-heading {
+  font-size: 3rem;
+  margin-bottom: 2em;
+  text-align: center;
+}
+
+.menu-heading {
+  margin-bottom: 1em;
+}
+
+.menu-list {
+  list-style-type: none;
+  margin: 0 auto;
+  max-width: min(600px, 90%);
+}
+
+.menu-list:not(:last-child) {
+  margin-bottom: 6em;
+}
+
+.dish-name {
+  font-size: 1.25rem;
+  margin-bottom: 0.25rem;
+}
+
+.dish-description {
+  margin-bottom: 0.75rem;
+}
+
+.small {
+  font-size: 0.75rem;
+  text-align: center;
+}
